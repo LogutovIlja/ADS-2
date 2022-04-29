@@ -7,7 +7,7 @@ double pown(double value, uint16_t n) {
   double k = 1;
     for (uint16_t i = 1; i <= n; i++) {
         if (n == 0) return 1;
-        else 
+        else
           k = k * value;
     }
     return k;
